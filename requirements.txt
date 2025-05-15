@@ -1,0 +1,33 @@
+# Document Automation Project Dependencies
+
+# Web Scraping
+selenium==4.19.0
+beautifulsoup4==4.12.3
+pandas==2.2.1
+requests==2.32.3
+lxml==4.9.3
+
+# PDF Processing
+git+https://github.com/adobe/pdfservices-python-sdk.git
+pdf2image==1.16.3
+poppler-utils  # System dependency for pdf2image
+
+# AI & Document Parsing
+openai==1.3.5
+llama-parse==0.6.4.post1
+
+# Cloud Storage & Database
+boto3==1.34.40  # For AWS S3 operations
+pymongo==4.6.1  # For MongoDB operations
+typesense  # For typesense database operations
+
+# Utilities
+python-dotenv>=1.0.1,<2.0.0  # For environment variables
+nest-asyncio==1.5.8  # For nested asyncio event loops
+tqdm==4.66.2  # For progress bars
+
+# Async Processing
+asyncio  # Standard library but required for concurrent API calls
+aiohttp==3.9.5  # For async HTTP requests
+httpx==0.23.3  # For HTTP requests
+

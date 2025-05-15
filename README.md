@@ -341,4 +341,5 @@ python upload_to_mongodb.py
 2. Sync MongoDB documents to Typesense:
 ```
 python mongodb_to_typesense.py
-``` # UTOMATED-DOCUMENT-PARSING-RAG
+```
+
