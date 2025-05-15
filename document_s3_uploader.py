@@ -32,7 +32,7 @@ from tqdm import tqdm
 env_aws_key_id = os.getenv("AWS_ACCESS_KEY_ID")
 env_aws_secret_key = os.getenv("AWS_SECRET_ACCESS_KEY")
 env_aws_region = os.getenv("AWS_REGION", "ap-south-1")
-env_bucket_name = os.getenv("S3_BUCKET_NAME", "sm2.0-etl-prod-ap-south-1-274743989443")
+env_bucket_name = os.getenv("S3_BUCKET_NAME", "")
 
 # Debug information about environment variables
 print("---- AWS CREDENTIALS DEBUG INFO ----")
